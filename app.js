@@ -31,7 +31,7 @@ function renderTables(){
     availableTables.forEach(table =>{
         const tableDiv = document.createElement('div');
         tableDiv.className = 'table';
-        tableDiv.innerHTML = `<img src="image/table.jpg" alt="Mesa ${table.number}"><div class="table-name">Mesa ${table.number}</div>`;
+        tableDiv.innerHTML = `<img src="table.jpg" alt="Mesa ${table.number}"><div class="table-name">Mesa ${table.number}</div>`;
 
         if(!table.reserved){
             const reserveButton = document.createElement('button');
